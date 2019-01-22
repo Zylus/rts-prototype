@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1227115348983136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4254517959791838}
+  - component: {fileID: 114944665225335428}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4254517959791838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227115348983136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114944665225335428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227115348983136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52efb895ee707bb44acb03f78ff5190e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseClickNotifierPrefab: {fileID: 198081455566761422, guid: 5bfbcb7578de7664c9d3484a7c906830,
+    type: 3}
+  unitUITextPrefab: {fileID: 114522097235453628, guid: 2c8093f9944368d438c9a5568e7bd134,
+    type: 3}
+  mouseClickNotifier: {fileID: 0}
+  selectableUnits: []
+  selectableBuildings: []
+  selectedUnits: []
+  selectedBuildings: []
+  unitUITexts: []
+  selectedObjectsGroup: {fileID: 0}
+  rallyPointPrefab: {fileID: 1635767915434972587, guid: d2358adfa46065c48b3f961056d872a6,
+    type: 3}
+  marqueeGraphics: {fileID: 2800000, guid: aee712cc32d903a42b9745a13d97ad82, type: 3}
+  playerColor: {r: 0.4320488, g: 0.6886792, b: 0.5438234, a: 1}
